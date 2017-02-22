@@ -5,6 +5,7 @@ html,body {
 body {
 	background-color: cornsilk;
 	position: relative;
+	font-family: 'Open Sans';
 }
 /*********************Navigation Bar*****************/
 
@@ -24,9 +25,9 @@ body {
 /****************************************************/
 
 .jumbotron {
-	background-image: url("../images/tigerbgimg.jpg");
+	background-image: url("../images/carbon-bg.jpg");
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	height: 350px;
 }
 
@@ -36,8 +37,13 @@ body {
 	top: -130px;
 }
 
+.img-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 #my-profile-pic {
-	border: 5px solid black;
+	border: 7px solid white;
 }
 
 .jumbotron {
@@ -51,4 +57,8 @@ body {
 
 .footer {
 	padding: 1em;
+}
+
+.footer p {
+	margin: 0;
 }
