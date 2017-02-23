@@ -2,16 +2,23 @@ html,body {
 	height: 100%;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: cornsilk;
 	position: relative;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans',helvetica,sans-serif;
 }
 /*********************Navigation Bar*****************/
 
 #navbar {
 	background-color: rgba(0,0,0,.5);
 	border: none;
+	margin-bottom: 0;
 }
 
 #navbar a:link,#navbar a:visited {
@@ -22,19 +29,26 @@ body {
 	color: white;
 }
 
-/****************************************************/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+/************************ Intro Section ****************************/
 
 .jumbotron {
 	background-image: url("../images/carbon-bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 350px;
+	height: 50vh;
 }
 
 #introSection {
-	background-color: transparent;
+	background-color: white;
 	position: relative;
-	top: -130px;
 }
 
 .img-container {
@@ -43,8 +57,16 @@ body {
 }
 
 #my-profile-pic {
+	position: relative;
+	top: -100px;
 	border: 7px solid white;
 }
+
+.intro-wrapper {
+	position: relative;
+	top: -100px;
+}
+/********************************************************************/
 
 .jumbotron {
 	padding: 0;
